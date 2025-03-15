@@ -1,10 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://bn8j7f8e0gba8"]
+[gd_scene load_steps=4 format=3 uid="uid://bn8j7f8e0gba8"]
 
 [ext_resource type="Script" uid="uid://lyl3xmxfikpq" path="res://script/main.gd" id="1_itxqv"]
 [ext_resource type="Texture2D" uid="uid://b1mdycr5v1rj6" path="res://asset/icon.svg" id="2_v0l8b"]
+[ext_resource type="Texture2D" uid="uid://b26mwm3fvj0l2" path="res://asset/food_ame.png" id="3_wp4xf"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_itxqv")
 
 [node name="sprite" type="Sprite2D" parent="."]
 texture = ExtResource("2_v0l8b")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("3_wp4xf")
